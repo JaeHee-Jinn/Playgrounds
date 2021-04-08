@@ -1,8 +1,11 @@
 func navigateAroundWall() {
-    if isBlockedRight {
+    if isBlocked && isBlockedRight {
+        turnLeft()
+    }else if isBlockedRight {
         moveForward()
-    }  else { isBlockedRight
-        
+    }else {
+        turnRight()
+        moveForward()
     }
 }
     
