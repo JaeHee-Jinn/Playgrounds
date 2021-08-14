@@ -1,3 +1,7 @@
+func toggleAndTurn() {
+    toggleSwitch()
+    turnAround()
+    }
 func moveAndCollect() {
     moveForward()
     collectGem()
@@ -22,8 +26,7 @@ func turnAround() {
 turnAround()
 moveLeft()
 moveForward()
-toggleSwitch()
-turnAround()
+
 orangePortal.isActive = true
 moveTwice()
 collectGem()
@@ -50,15 +53,11 @@ turnAround()
 greenPortal.isActive = true
 moveTwice()
 greenPortal.isActive = false
-toggleSwitch()
-turnAround()
+toggleAndTurn()
 moveTwice()
-toggleSwitch()
-turnAround()
+toggleAndTurn()
 moveLeft()
 moveForward()
-toggleSwitch()
-turnAround()
-moveTwice()
+toggleAndTurn()
 toggleSwitch()
 
