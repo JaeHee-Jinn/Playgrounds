@@ -1,1 +1,15 @@
-
+move(distance: 6)
+expert.turnRight()
+move(distance: 2)
+expert.turnRight()
+move(distance: 5)
+expert.turnLeft()
+move(distance: 5)
+expert.turnLockUp()
+expert.turnLeft()
+for i in 1 ... 2 {
+move(distance: 3)
+expert.turnRight()
+}
+move(distance: 4)
+expert.collectGem()
