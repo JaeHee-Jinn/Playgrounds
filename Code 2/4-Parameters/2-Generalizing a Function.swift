@@ -1,3 +1,17 @@
+if up{
+        for i in 1 ... numberOfTimes {
+            expert.turnLockUp()
+            
+        }
+    }else{
+        for i in 1 ... numberOfTimes {
+            expert.turnLockDown()
+            
+        }
+    }
+    
+    
+    
 for i in 1 ... 2 {
     for i in 1 ... 2 {
     expert.turnRight()
